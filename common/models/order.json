@@ -1,0 +1,42 @@
+{
+  "name": "order",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true
+    },
+    "client": {
+      "type": "string",
+      "required": true
+    },
+    "createdDate": {
+      "type": "date",
+      "default": "$now"
+    },
+    "transporter": {
+      "type": "string",
+      "required": true
+    },
+    "palNbr": {
+      "type": "number",
+      "required": true
+    },
+    "prepa": {
+      "type": "string",
+      "required": true
+    },
+    "etiqImprime": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
