@@ -38,5 +38,9 @@
   "order": {
     "dataSource": "db",
     "public": true
+  },
+  "suppliers": {
+    "dataSource": "db",
+    "public": true
   }
 }
