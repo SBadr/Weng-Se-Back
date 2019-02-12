@@ -1,5 +1,5 @@
 {
-  "name": "suppliers",
+  "name": "costumer",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {

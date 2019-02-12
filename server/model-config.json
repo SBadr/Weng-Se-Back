@@ -39,7 +39,15 @@
     "dataSource": "db",
     "public": true
   },
-  "suppliers": {
+  "supplier": {
+    "dataSource": "db",
+    "public": true
+  },
+  "costumer": {
+    "dataSource": "db",
+    "public": true
+  },
+  "check": {
     "dataSource": "db",
     "public": true
   }

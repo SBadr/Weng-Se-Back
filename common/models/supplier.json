@@ -1,5 +1,5 @@
 {
-  "name": "suppliers",
+  "name": "supplier",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -126,6 +126,24 @@
     },
     "siret": {
       "type": "string"
+    },
+    "salesPerson": {
+      "type": "string"
+    },
+    "isActive": {
+      "type": "boolean"
+    },
+    "language": {
+      "type": "boolean"
+    },
+    "paymentMethod": {
+      "type": "string"
+    },
+    "bankReglement": {
+      "type": "string"
+    },
+    "lastOrder": {
+      "type": "date"
     }
   },
   "validations": [],
