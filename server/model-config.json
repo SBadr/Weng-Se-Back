@@ -50,5 +50,9 @@
   "check": {
     "dataSource": "db",
     "public": true
+  },
+  "remise": {
+    "dataSource": "db",
+    "public": true
   }
 }
