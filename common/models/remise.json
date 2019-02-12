@@ -38,7 +38,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "checks": {
+      "type": "hasMany",
+      "model": "Check",
+      "foreignKey": "remiseId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

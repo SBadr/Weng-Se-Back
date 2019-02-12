@@ -29,6 +29,9 @@
     },
     "cashingDateDesired": {
       "type": "date"
+    },
+    "remiseId": {
+      "type": "string"
     }
   },
   "validations": [],
