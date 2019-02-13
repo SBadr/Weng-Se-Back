@@ -45,14 +45,23 @@
   },
   "costumer": {
     "dataSource": "db",
-    "public": true
+    "public": true,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
   },
   "check": {
     "dataSource": "db",
-    "public": true
+    "public": true,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
   },
   "remise": {
     "dataSource": "db",
-    "public": true
+    "public": true,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
   }
 }

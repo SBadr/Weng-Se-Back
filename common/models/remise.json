@@ -3,7 +3,8 @@
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
-    "validateUpsert": true
+    "validateUpsert": true,
+    "strictObjectIDCoercion": true
   },
   "properties": {
     "issuedDate": {
@@ -41,8 +42,8 @@
   "relations": {
     "checks": {
       "type": "hasMany",
-      "model": "Check",
-      "foreignKey": "remiseId"
+      "model": "check",
+      "foreignKey": "remise_id"
     }
   },
   "acls": [],

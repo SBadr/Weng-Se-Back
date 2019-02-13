@@ -3,7 +3,8 @@
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
-    "validateUpsert": true
+    "validateUpsert": true,
+    "strictObjectIDCoercion": true
   },
   "properties": {
     "number": {
@@ -30,7 +31,7 @@
     "cashingDateDesired": {
       "type": "date"
     },
-    "remiseId": {
+    "remise_id": {
       "type": "string"
     }
   },
@@ -38,8 +39,13 @@
   "relations": {
     "customer": {
       "type": "belongsTo",
-      "model": "Customer",
+      "model": "customer",
       "foreignKey": "customerId"
+    },
+    "remise": {
+      "type": "belongsTo",
+      "model": "remise",
+      "foreignKey": "remiseId"
     }
   },
   "acls": [],
