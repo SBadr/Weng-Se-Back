@@ -45,7 +45,7 @@
     "remise": {
       "type": "belongsTo",
       "model": "remise",
-      "foreignKey": "remiseId"
+      "foreignKey": "remise_id"
     }
   },
   "acls": [],

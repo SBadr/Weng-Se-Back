@@ -23,6 +23,9 @@
       "type": "number",
       "required": true
     },
+    "number": {
+      "type": "string"
+    },
     "numberCheck": {
       "type": "number",
       "required": true
