@@ -16,8 +16,7 @@
       "default": false
     },
     "type": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "civility": {
       "type": "string"
@@ -54,23 +53,34 @@
       "default": true
     },
     "department": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "timezone": {
       "type": "string"
     },
-    "address": {
-      "type": "string",
-      "required": true
+    "addressLine1": {
+      "type": "string"
+    },
+    "addressLine2": {
+      "type": "string"
+    },
+    "addressLine3": {
+      "type": "string"
+    },
+    "addressLine4": {
+      "type": "string"
+    },
+    "addressLine5": {
+      "type": "string"
+    },
+    "postalCode": {
+      "type": "number"
     },
     "city": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
-    "country": {
-      "type": "string",
-      "required": true
+    "countryCode": {
+      "type": "string"
     },
     "websiteURL": {
       "type": "string"
@@ -88,8 +98,7 @@
       "type": "string"
     },
     "title": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "status": {
       "type": "string"
@@ -127,9 +136,6 @@
     "siret": {
       "type": "string"
     },
-    "salesPerson": {
-      "type": "string"
-    },
     "isActive": {
       "type": "boolean"
     },
@@ -144,6 +150,15 @@
     },
     "lastOrder": {
       "type": "date"
+    },
+    "createdDate": {
+      "type": "date"
+    },
+    "lastModifiedDate": {
+      "type": "date"
+    },
+    "manager": {
+      "type": "string"
     }
   },
   "validations": [],
