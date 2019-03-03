@@ -16,26 +16,32 @@
       "default": false
     },
     "type": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "civility": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "firstName": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "lastName": {
       "type": "string",
       "required": true
     },
     "dateBirth": {
-      "type": "date"
+      "type": "date",
+      "default": ""
     },
     "pictureSrc": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "email": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "newsletter": {
       "type": "boolean",
@@ -53,112 +59,148 @@
       "default": true
     },
     "department": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "timezone": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "addressLine1": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "addressLine2": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "addressLine3": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "addressLine4": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "addressLine5": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "postalCode": {
-      "type": "number"
+      "type": "number",
+      "default": ""
     },
     "city": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "countryCode": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "websiteURL": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "skype": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "phone": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "mobile": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "fax": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "status": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "bank": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "iban": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "bic": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "oldId": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "family": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "tva": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "accountingAccount": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "tvaCode": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "tvaExport": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "siren": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "siret": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "isActive": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": ""
     },
     "language": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": ""
     },
     "paymentMethod": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "bankReglement": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "lastOrder": {
-      "type": "date"
+      "type": "date",
+      "default": ""
     },
     "createdDate": {
-      "type": "date"
+      "type": "date",
+      "default": ""
     },
     "lastModifiedDate": {
-      "type": "date"
+      "type": "date",
+      "default": ""
     },
     "manager": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     }
   },
   "validations": [],
