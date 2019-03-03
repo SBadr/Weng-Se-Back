@@ -18,9 +18,6 @@
       "type": "date",
       "default": "$now"
     },
-    "number": {
-      "type": "string"
-    },
     "transporter": {
       "type": "string",
       "required": true
