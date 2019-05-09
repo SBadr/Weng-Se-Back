@@ -10,33 +10,67 @@
       "type": "string",
       "id": true
     },
-    "client": {
+    "oldId": {
       "type": "string",
-      "required": true
+      "required": false
     },
-    "createdDate": {
+    "deliveryDate": {
       "type": "date",
-      "default": "$now"
+      "default": "$now",
+      "required": false
     },
-    "transporter": {
+    "customers": {
       "type": "string",
-      "required": true
+      "required": false
     },
-    "palNbr": {
-      "type": "number",
-      "required": true
-    },
-    "prepa": {
+    "shippers": {
       "type": "string",
-      "required": true
+      "required": false
     },
-    "etiqImprime": {
+    "numberPallets": {
       "type": "string",
-      "required": true
+      "required": false
+    },
+    "printBPLabel": {
+      "type": "string",
+      "required": false
+    }, 
+    "preparation": {
+      "type": "string",
+      "required": false
+    },
+    "controllerBP": {
+      "type": "string",
+      "required": false
+    },
+    "controlBPDate": {
+      "type": "string",
+      "required": false
+    },
+    "printBL": {
+      "type": "string",
+      "required": false
+    },
+    "controllerBL": {
+      "type": "string",
+      "required": false
+    },
+    "total_ht": {
+      "type": "string",
+      "required": false
+    },
+    "driver": {
+      "type": "string",
+      "required": false
+    },
+    "controllerBLSigned": {
+      "type": "string",
+      "required": false
     }
   },
   "validations": [],
   "relations": {},
   "acls": [],
   "methods": {}
-}
+ }
+ 
